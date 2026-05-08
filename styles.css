@@ -1,0 +1,176 @@
+.rom{
+    border-color: 1px, bisque;
+    /*o puedes utilizar este*/
+    border: 1px solid green
+    background-color blue;
+    /*color: browm- Cambia el ecolor del texto*/
+}
+
+.col-md-4{
+    border: 10px solid coral;
+}
+
+.card{
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 20px auto;
+    }
+
+body {
+    background-color: #fafafa;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#ad-section {
+    padding: 20px;
+}
+
+.ad-card {
+    border: none;
+    border-radius: 15px;
+    overflow: hidden;
+
+    transition: transform 0.3s ease,
+    box-shadow 0.3s ease;
+
+    box-shadow: 0 2px 10px rgba(0,0,0,0.08);
+}
+
+.ad-card:hover {
+    transform: translateY(-5px);
+
+    box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.ad-card img {
+    height: 250px;
+    object-fit: cover;
+}
+
+.card-title {
+    font-weight: bold;
+}
+
+.card-text {
+    color: #555;
+}
+
+.btn-dark {
+    border-radius: 10px;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/* BODY NORMAL */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: white;
+}
+
+
+/* FOOTER */
+.footer{
+
+    width: 100%;
+
+    text-align: center;
+
+    padding: 40px 20px;
+
+    margin-top: 100px;
+
+    /* FONDO SOLO EN FOOTER */
+    background: linear-gradient(
+        135deg,
+        #feda75,
+        #fa7e1e,
+        #d62976,
+        #962fbf,
+        #4f5bd5
+    );
+
+}
+
+
+/* LOGO */
+.logo{
+
+    color: white;
+
+    font-size: 35px;
+
+    margin-bottom: 25px;
+}
+
+
+/* LINKS */
+.footer-links{
+
+    display: flex;
+
+    justify-content: center;
+
+    flex-wrap: wrap;
+
+    gap: 15px;
+
+    margin-bottom: 20px;
+}
+
+
+/* LINKS ESTILO */
+.footer-links a{
+
+    text-decoration: none;
+
+    color: white;
+
+    background-color: rgba(255,255,255,0.2);
+
+    padding: 8px 14px;
+
+    border-radius: 20px;
+
+    transition: 0.3s;
+}
+
+
+/* HOVER */
+.footer-links a:hover{
+
+    background-color: white;
+
+    color: #d62976;
+
+    transform: scale(1.05);
+}
+
+
+/* COPYRIGHT */
+.copyright{
+
+    color: white;
+
+    font-size: 14px;
+}
+
+
+/* RESPONSIVE */
+@media(max-width:768px){
+
+    .logo{
+        font-size: 28px;
+    }
+
+    .footer-links a{
+        font-size: 12px;
+        padding: 6px 10px;
+    }
+
+
+}
